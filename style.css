@@ -1,0 +1,17 @@
+*{
+    background-color:white;
+}
+/* .submit{
+    background-color: aquamarine;
+    color: blue;
+    height: 25px;
+} */
+ #username{
+    text-align: center;
+ }
+ #Password{
+    text-align: center;
+ }
+ #City{
+    text-align: center;
+ }
