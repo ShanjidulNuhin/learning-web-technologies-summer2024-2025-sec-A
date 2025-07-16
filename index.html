@@ -7,15 +7,17 @@
     </title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body><form action="firstpage.html" methode="get">
         <h3 id="username">
-            User Name
-             <input placeholder="Type your name">
+           <label>User name
+             <input type = "text" name="name" placeholder="Type your name" required>
+             </label>
         </h3>
         <h3 id="Password">
             Password
-            <input placeholder="Type Password"><br><br>
+            <input placeholder="Type Password"required><br><br>
         </h3>
+    
         <div class="citySelect">
            Select Your City<br>
             <select>
@@ -27,7 +29,7 @@
                 <option>Chittagong</option>
                 <option>Rangpur</option>
             </select></div>
-       <form>
+       
   <p>Select your gender:</p>
 
   <input type="radio" name="gender" value="Male">
@@ -48,9 +50,10 @@
   
   <input type="checkbox" id="EEE"name="subject" value="EEE">
   <label for="EEE">EEE</label><br>
-</form> 
+
 <a href="firstpage.html">
 <button class="submit">Submit</button>
 </a>
+</form> 
 </body>
 </html>
