@@ -3,57 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab1
-    </title>
-    <link rel="stylesheet" href="style.css">
+    <title>Task_form</title>
 </head>
-<body><form action="firstpage.html" methode="get">
-        <h3 id="username">
-           <label>User name
-             <input type = "text" name="name" placeholder="Type your name" required>
-             </label>
-        </h3>
-        <h3 id="Password">
-            Password
-            <input placeholder="Type Password"required><br><br>
-        </h3>
-    
-        <div class="citySelect">
-           Select Your City<br>
-            <select>
-                <option>Dhaka</option>
-                <option>Rajshahi</option>
-                <option>Khulna</option>
-                <option>Barishal</option>
-                <option>Sylhet</option>
-                <option>Chittagong</option>
-                <option>Rangpur</option>
-            </select></div>
-       
-  <p>Select your gender:</p>
+<body>
+    <form action="abc.php" method="get">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" name="name">
+        <br>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="password"><br>
+            <button type="submit">Submit</button>
 
-  <input type="radio" name="gender" value="Male">
-  <label for="male">Male</label><br>
+    </form>
 
-  <input type="radio" name="gender" value="Female">
-  <label for="female">Female</label><br>
-
-  <p>Select your Fobourite subject:</p>
-  <input type="checkbox"id="BBA" name="subject" value="BBA">
-  <label for="BBA">BBA</label><br>
-
-  <input type="checkbox"id="English" name="subject" value="ENglish">
-  <label for="English">English</label><br>
-
-  <input type="checkbox" id="CSe"name="subject" value="CSE">
-  <label for="CSE">CSE</label><br>
-  
-  <input type="checkbox" id="EEE"name="subject" value="EEE">
-  <label for="EEE">EEE</label><br>
-
-<a href="firstpage.html">
-<button class="submit">Submit</button>
-</a>
-</form> 
 </body>
 </html>
